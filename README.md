@@ -29,4 +29,5 @@ CMD [ "node", "index.js" ]
 Agora vá até o terminal do vsCode e rode o segunte comando 'docker build .' (o '.' serve para informar que esta pasta tem o arquivo 'Dockerfile')
 
 Agora rodar criar um container com esta imagem criada comando: 'docker run `PORT`:`PORT` -d (não abrir o terminal) `ID_IMAGE` --name ´Nome_do_Container´'
+<br/>
                                                                'docker run 3000:3000 -d 2918a49e22892bb --name Container_Node' 
