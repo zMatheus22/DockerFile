@@ -25,7 +25,7 @@ EXPOSE 3000
 # Comando para rodar a aplicação
 CMD [ "node", "index.js" ]
 
-# Terminal
+# Terminal - VSCode `CMD/PowerShell/WSL`
 Agora vá até o terminal do vsCode e rode o segunte comando `docker build .` (o '.' serve para informar que esta pasta tem o arquivo 'Dockerfile')
 
 Agora rodar criar um container com esta imagem criada comando:
